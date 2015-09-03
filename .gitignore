@@ -20,7 +20,9 @@ DerivedData
 Fallin.spritebuilder/Source/libs/
 Fallin.spritebuilder/Source/Resources/Published-iOS
 Fallin.spritebuilder/Source/Resources/Published-Android
-
+FallingMedia/
+.DS_Store
+ 
 # CocoaPods
 #
 # We recommend against adding the Pods directory to your .gitignore. However
