@@ -124,7 +124,7 @@
 -(void)update:(CCTime)delta
 {
     distance =(unsigned long)points/kPointToCentimeters;
-    [_diamondsLabel setString:[NSString stringWithFormat:@"%f",distance]];
+    [_diamondsLabel setString:[NSString stringWithFormat:@"%f.0",distance]];
     [self checkForNewLevelExplotion];
         if (keepScrolling || isGoingToSky)
             [self runSpacesWithSpeed:[self getSpeed:delta] andDirection:isGoingToSky];
